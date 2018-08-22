@@ -106,7 +106,7 @@ Links
 -----
 
 * Talk: https://www.youtube.com/watch?v=ITksU31c1WY
-* The birth and death of JavaScript talk: https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
-* Dan Callahan on Twitter: @callahad_
+* "The birth and death of JavaScript" talk: https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
+* Dan Callahan on Twitter: `@callahad`_
 
 .. _@callahad: https://twitter.com/callahad
