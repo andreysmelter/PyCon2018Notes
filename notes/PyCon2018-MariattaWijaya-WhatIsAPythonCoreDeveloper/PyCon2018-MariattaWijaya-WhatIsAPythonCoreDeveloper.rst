@@ -31,6 +31,7 @@ Responsibilities
 
 * CPython repos on github
 * Participate in mailing lists:
+
     * python-committers (core developers only)
     * python-dev
     * core-mentorship
@@ -38,10 +39,12 @@ Responsibilities
     * python-bugs-list
     * python-ideas
     * core-workflow
+
 * Review, accept, reject PRs
 * Face the consequence
 * Help contributors
 * Be the representative for Python
+
     * Make decisions
     * Shape the language
     * Decide how it is going to evolve
@@ -97,11 +100,14 @@ How can I become a core developer? (User -> Core team)
 
 * User -> Community member -> Contributor -> Core team
 * Big question: Can we trust you?
+
     * Earn the trust from existing core devs
+
         * You contributing
         * You participating in mailing lists
         * You make pull request
         * You review pull request
+
     * Accept responsibilities
     * Be open, considerate, and respectful
 
@@ -131,9 +137,12 @@ How do we get more women contributors?
 
 
 * Identify the problems
+
     * What barriers do women face?
     * Lack of role models
+
 * Participation by core devs
+
     * Provide mentorship
     * Office hours
     * AMA sessions
