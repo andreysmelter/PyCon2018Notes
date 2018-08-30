@@ -1,23 +1,25 @@
 What is a Python Core Developer?
 ================================
 
-                /\
-               /  \
-              /BDFL\
-             /______\
-            /        \
-           /Core team \
-          /  leaders   \
-         /______________\   
-        /                \
-       /   Contributor    \   
-      /____________________\
-     /                      \
-    /    Community member    \
-   /__________________________\
-  /                            \
- /             User             \
-/________________________________\ 
+.. code-block:: none
+
+                    /\
+                   /  \
+                  /BDFL\
+                 /______\
+                /        \
+               /Core team \
+              /  leaders   \
+             /______________\   
+            /                \
+           /   Contributor    \   
+          /____________________\
+         /                      \
+        /    Community member    \
+       /__________________________\
+      /                            \
+     /             User             \
+    /________________________________\ 
 
 
 * What is a Python Core Developer?
@@ -107,23 +109,25 @@ How can I become a core developer? (User -> Core team)
 How do we get more women contributors?
 --------------------------------------
 
-                /\
-               /  \
-              /BDFL\
-             /______\
-            /        \
-           /Core team \
-          /  leaders   \           <- ~88 core developers (2 women)
-         /______________\   
-        /                \
-       /   Contributor    \        <- ~850 contributirs (10 women)
-      /____________________\
-     /                      \
-    /    Community member    \     <- Diverse
-   /__________________________\
-  /                            \
- /             User             \  <- 7 million users (diverse)
-/________________________________\ 
+.. code-block:: none
+
+                    /\
+                   /  \
+                  /BDFL\
+                 /______\
+                /        \
+               /Core team \
+              /  leaders   \           <- ~88 core developers (2 women)
+             /______________\   
+            /                \
+           /   Contributor    \        <- ~850 contributirs (10 women)
+          /____________________\
+         /                      \
+        /    Community member    \     <- Diverse
+       /__________________________\
+      /                            \
+     /             User             \  <- 7 million users (diverse)
+    /________________________________\ 
 
 
 * Identify the problems
