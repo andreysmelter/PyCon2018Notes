@@ -33,12 +33,12 @@ Responsibilities
 * Participate in mailing lists:
 
     * python-committers (core developers only)
-    * python-dev
-    * core-mentorship
-    * new-bugs-announce
-    * python-bugs-list
-    * python-ideas
-    * core-workflow
+    * python-dev (https://mail.python.org/mailman/listinfo/python-dev)
+    * core-mentorship (https://mail.python.org/mm3/mailman3/lists/core-mentorship.python.org/)
+    * new-bugs-announce (https://mail.python.org/mailman/listinfo/new-bugs-announce)
+    * python-bugs-list (https://mail.python.org/mailman/listinfo/python-bugs-list)
+    * python-ideas (https://mail.python.org/mailman/listinfo/python-ideas)
+    * core-workflow (https://mail.python.org/mm3/mailman3/lists/core-workflow.python.org/)
 
 * Review, accept, reject PRs
 * Face the consequence
@@ -155,7 +155,7 @@ Links
 * Talk: https://youtu.be/hhj7eb6TrtI
 * Python Core Developers: https://devguide.python.org/developers/
 * CPython Developers Guide: https://devguide.python.org
-* https://realpython.com/interview-mariatta-wijaya/
+* Mariatta Wijaya interview: https://realpython.com/interview-mariatta-wijaya/
 * Mariatta Wijaya on Twitter: `@mariatta`_
 
 .. _@mariatta: https://twitter.com/mariatta
