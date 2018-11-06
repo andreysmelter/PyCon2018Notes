@@ -477,7 +477,7 @@ Decorators
 
 
 ContextDecorators
-~~~~~~~~~~~~~~~~~
+-----------------
 
 * ContextManager + Decorator combined.
 * By using ``ContextDecorator`` you can easily write classes that can be 
@@ -520,21 +520,92 @@ ContextDecorators
         else:
             return 'profile.html'
 
+* Example: FreezeGun - Let your Python tests travel through time.
+
+.. code:: python
+    
+    import datetime
+    from freezgun import freeze_time
+
+
+    # Use it as a Context Manager
+    def test():
+        with freeze_time('2012-01-14'):
+            assert datetime.datetime.now() == datetime.datetime(2012, 1, 4)
+        assert datetime.datetime.now() != datetime.datetime(2012, 1, 4)
+
+    # or a decorator
+    @freeze_time('2012-01-14')
+    def test():
+        assert datetime.datetime.now() == datetime.datetime(2012, 1, 4)
+
+
+NamedTuple
+----------
+
+* Useful when you need lightweight representations of data.
+* Create tuple subclasses with named fields.
+
+.. code:: python
+
+    from collections import namedtuple
+
+    CacheInfo = namedtuple('CacheInfo', ['hits', 'misses', 'max_size', 'curr_size'])
+
+
+* Give NamedTuples default values
+
+.. code:: python
+
+    RoutingRule = namedtuple('RoutingRule', ['prefix, queue_name', 'wait_time'])
+
+    # (1) by specifying defaults
+    RoutingRule.__new__.__defaults__ = (None, None, 20)
+
+    # (2) or with _replace to customize a prototype instance
+    default_rule = RoutingRule(None, None, 20)
+    user_rule = default_rule._replace(prefix='user', queue_name='user-queue')
+
+
+* NamedTuples can be subclassed and extended
+
+.. code:: python
+
+    class Person(namedtuple('Person', ['first_name', 'last_name'])):
+        """Stores first and last name of a Person."""
+
+        def __str__(self):
+            return '{} {}'.format(self.first_name, self.last_name)
 
 
 
+Summary
+-------
 
+* Magic Methods
+    * make you objects behave like builtins (numbers, ``list``, ``dict``, etc)
 
+* Method *Magic*
+    * aslias methods
+    * ``getattr``
 
+* ContextManagers
+    * manage resources
 
+* Decorators
+    * do something before/after call
+    * modify return value
+    * validate arguments
 
+* ContextDecorators
+    * ContextManagers + Decorators in one
 
+* Iterators and Generators
+    * loop over your objects
+    * ``yield``
 
-
-
-
-
-
+* NamedTuples
+    * lightweight classes
 
 
 Links
@@ -543,7 +614,8 @@ Links
 * Talk: https://youtu.be/WiQqqB9MlkA
 * Slides: https://www.slideshare.net/nnja/elegant-solutions-for-everyday-python-problems-pycon-2018
 * https://github.com/mozilla/agithub
+* https://github.com/spulec/freezegun
 * https://en.wikipedia.org/wiki/Feature_toggle
 * Nina Zakharenko on Twitter: `@nnja`_
 
-.. _@callahad: https://twitter.com/nnja
+.. _@nnja: https://twitter.com/nnja
