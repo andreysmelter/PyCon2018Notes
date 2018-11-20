@@ -293,3 +293,12 @@ importlib_resources
 * https://importlib-resources.readthedocs.io/en/latest/
 
 
+Links
+-----
+
+* Talk: https://youtu.be/ZsGFU2qh73E
+* ``shiv``: https://shiv.readthedocs.io/en/latest/
+* ``importlib-resources``: https://importlib-resources.readthedocs.io/en/latest/
+* Barry Warsaw on Twitter: `@pumpichank`_
+
+.. _@pumpichank: https://twitter.com/pumpichank
